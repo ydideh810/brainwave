@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 import Typewriter from "typewriter-effect";
 
-import { curve, heroBackground, robot } from "../assets";
+import { cur, back, line } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
@@ -48,7 +48,7 @@ const Hero = () => {
             <span className="inline-block relative font-semibold">
               Niddam
               <img
-                src={curve}
+                src={cur}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
                 width={624}
                 height={28}
@@ -70,7 +70,7 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  src={line}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] pointer-events-none select-none"
                   width={1024}
                   height={490}
@@ -103,7 +103,7 @@ const Hero = () => {
 
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
-              src={heroBackground}
+              src={back}
               className="w-full pointer-events-none select-none"
               width={1440}
               height={1800}
