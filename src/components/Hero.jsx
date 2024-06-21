@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { ScrollParallax } from "react-just-parallax";
 import Typewriter from "typewriter-effect";
 
-import { cur, back, line } from "../assets";
+import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";
 import CompanyLogos from "./CompanyLogos";
