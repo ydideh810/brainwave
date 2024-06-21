@@ -48,7 +48,7 @@ const Hero = () => {
             <span className="inline-block relative font-semibold">
               Niddam
               <img
-                src={cur}
+                src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
                 width={624}
                 height={28}
@@ -103,7 +103,7 @@ const Hero = () => {
 
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
-              src={back}
+              src={heroBackground}
               className="w-full pointer-events-none select-none"
               width={1440}
               height={1800}
